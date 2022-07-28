@@ -198,20 +198,42 @@
         </section>
            <!-- courses end -->
            <!-- register section start  -->
- 
-           <section class="container my-5">
-            <div class=" d-lg-flex p-5 justify-content-between bg-primary align-items-center rounded">
-              <div>
-                <h2 class="text-light fs-2 my-3">READY  TO JOIN?</h2>
-                <p class="text-white">A true education can be defined as <br> “enough knowledge given to a student to be successful in life after completing school</p>
-              </div>
-              <div>
-                <button type="button" class="btn btn-light text-primary fw-bold px-5"> <a href="modal.html" class="text-decoration-none">Register Now</a></button>
-              </div>
+        
+  <section class="mb-5">
+    <div class="container d-lg-flex mt-5 justify-content-between bg-primary rounded p-5">
+      <div>
+        <h2 class="text-light fs-2 my-3 fw-bold">READY  TO JOIN?</h2>
+        <p class="text-white">A true education can be defined as <br> “enough knowledge given to a student to be successful in life after completing school</p>
+      </div>
+        <div>
+            <!-- Button trigger modal -->
+            <button type="button" class="btn bg-light text-primary fw-bold px-5 py-2" data-bs-toggle="modal"
+                data-bs-target="#staticBackdrop">Register
+                Now</button>
+
+            <!-- Modal -->
+            <div class="modal fade" id="staticBackdrop" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+                aria-labelledby="staticBackdropLabel" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="staticBackdropLabel">Register</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            Are you sure you want to register
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            <button type="button" class="btn btn-primary"> <a class="text-decoration-none text-white fw-bold" href="modal.html">Register</a> </button>
+                        </div>
+                    </div>
+                </div>
             </div>
-          </section>
-           
-             <!-- register section end  -->
+        </div>
+    </div>
+  </section>
+     <!-- register section end  -->
 
              <!-- student meet start -->
              <section class="mb-5 container">
